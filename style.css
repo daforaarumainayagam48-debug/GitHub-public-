@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url("DSCF1218-1-300x300.webp"); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.hero-content h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.hero-content span {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.adresse {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f5c400;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#presentation {
+    padding: 40px;
+    background-color: #2a2a2a;
+}
+
+#presentation h2 {
+    color: #f5c400;
+}
+
+.link-page {
+    display: inline-block;
+    margin-top: 15px;
+    color: #f5c400;
+    text-decoration: none;
+}
